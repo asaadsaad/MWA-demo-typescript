@@ -6,7 +6,7 @@
 5. Run `npm init -y` and then install `webpack` as a development dependency: `npm i webpack webpack-cli --save-dev`
 6. Add the following script to `package.json`: 
 ```javascript
-{ "build" : "webpack ./app.js -o ./bundle.js" }
+{ "build" : "webpack ./js/app.js -o ./js/" }
 ```
 7. Run `npm run build` and it will bundle all `js` files into one and generate sourcemap files.
-8. Use the `bundle.js` file and test the results in the browser.
+8. Use the `main.js` file and test the results in the browser.
